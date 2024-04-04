@@ -1,0 +1,33 @@
+.body {
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.nav {
+  background-color: blue; }
+  .nav ul li {
+    list-style: none; }
+  .nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: beige; }
+    .nav a:hover {
+      color: orangered; }
+
+.banner h1 {
+  font-size: 40px;
+  color: #222;
+  text-align: center; }
+
+.banner h2 {
+  font-size: 25px;
+  color: #222;
+  text-align: center; }
+
+.footer h3 {
+  font-size: 30px;
+  color: #222;
+  text-align: center;
+  transition: color 0.5s, background-color 1s; }
+  .footer h3:hover {
+    color: orangered;
+    background-color: #222; }
