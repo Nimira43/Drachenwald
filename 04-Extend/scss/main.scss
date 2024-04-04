@@ -1,0 +1,69 @@
+$color-primary: blue;
+$color-secondary: #222;
+$color-tertiary: orangered;
+$color-light: beige;
+
+$font-lg: 40px;
+$font-md: 30px;
+$font-sm: 20px;
+
+.body {
+  background-color: $color-light;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+  background-color: $color-primary;
+  ul li {
+    list-style: none;
+  }
+  a { 
+    $color-secondary: beige;
+    text-decoration: none;
+    font-size: $font-sm;
+    color: $color-secondary;
+    &:hover {
+      color: $color-tertiary;
+    }
+  } 
+}
+
+.heading {
+  color: $color-light;
+  font-size: $font-lg;
+  background-color: $color-primary;
+  text-align: center;
+}
+
+@mixin headingStyles($fontSize: 25px) {
+  font-size: $fontSize;
+  color: $color-secondary;
+  text-align: center;  
+}
+
+@mixin transition($param...) {
+  transition: $param;
+}
+
+.banner h2 {
+  @include headingStyles;
+  @include transition(color 0.5s, background-color 1s);
+  &:hover {
+    color: $color-light;
+    background-color: $color-secondary;
+  }
+}
+
+h1 {
+  @extend .heading;
+  @include transition(color 0.5s, background-color 1s);
+  &:hover {
+    color: $color-primary;
+    background-color: $color-secondary;
+  }
+}
+
+h3 {
+  @extend h1;
+  @include transition(color 0.5s, background-color 1s);
+}

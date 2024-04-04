@@ -1,0 +1,38 @@
+.body {
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.nav {
+  background-color: blue; }
+  .nav ul li {
+    list-style: none; }
+  .nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: beige; }
+    .nav a:hover {
+      color: orangered; }
+
+.heading, h1, h3 {
+  color: beige;
+  font-size: 40px;
+  background-color: blue;
+  text-align: center; }
+
+.banner h2 {
+  font-size: 25px;
+  color: #222;
+  text-align: center;
+  transition: color 0.5s, background-color 1s; }
+  .banner h2:hover {
+    color: beige;
+    background-color: #222; }
+
+h1, h3 {
+  transition: color 0.5s, background-color 1s; }
+  h1:hover, h3:hover {
+    color: blue;
+    background-color: #222; }
+
+h3 {
+  transition: color 0.5s, background-color 1s; }
