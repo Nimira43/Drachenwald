@@ -16,9 +16,25 @@
 
 .sub-name {
   font-size: 18px;
-  color: $secondary;
+  color: $light;
   text-align: center;
   @include textStyles;
+}
+
+.main-heading {
+  font-family: $logo-font;
+  font-size: 100px;
+  font-weight: lighter;
+  color: $secondary; 
+  margin: 40px 0;
+}
+
+.sub-heading {
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 200;
+  color: $light; 
+  margin-bottom: 80px;
 }
 
 
