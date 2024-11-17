@@ -39,11 +39,29 @@ body {
   margin: 40px 0; }
 
 .sub-heading {
-  font-family: inherit;
   font-size: 40px;
   font-weight: 200;
   color: #fff8dc;
   margin-bottom: 80px; }
+
+.main-btn {
+  width: 170px;
+  height: 45px;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffd700;
+  background-color: #228822;
+  border: 1px solid #228822;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease-in; }
+
+.main-btn:hover {
+  color: #228822;
+  background-color: #ffd700; }
 
 .header {
   position: relative;

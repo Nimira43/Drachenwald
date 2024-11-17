@@ -30,11 +30,31 @@
 }
 
 .sub-heading {
-  font-family: inherit;
   font-size: 40px;
   font-weight: 200;
   color: $light; 
   margin-bottom: 80px;
+}
+
+.main-btn {
+  width: 170px;
+  height: 45px;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $secondary;
+  background-color: $forest;
+  border: 1px solid $forest;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease-in;
+}
+
+.main-btn:hover {
+  color: $forest;
+  background-color: $secondary;
 }
 
 
