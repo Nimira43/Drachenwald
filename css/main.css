@@ -1,5 +1,10 @@
 body {
-  background-color: orange; }
+  font-family: "Merriweather", serif;
+  color: #333333;
+  background: #fff8dc;
+  margin: 0;
+  padding: 0; }
 
-h1 {
-  color: white; }
+.logo {
+  color: #8b0000;
+  font-family: "UnifrakturMaguntia", cursive; }

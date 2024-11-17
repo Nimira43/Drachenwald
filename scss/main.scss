@@ -1,7 +1,20 @@
+$primary: #8b0000;
+$secondary: #ffd700;
+$forest: #228822;
+$light: #fff8dc;
+$dark: #333333;
+$logo: 'UnifrakturMaguntia', cursive;
+$main-font: 'Merriweather', serif;
+
 body {
-  background-color: orange;
+  font-family: $main-font;
+  color: $dark;
+  background: $light;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-  color: white
+.logo {
+  color: $primary;
+  font-family: $logo;
 }
