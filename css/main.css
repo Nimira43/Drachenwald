@@ -9,7 +9,15 @@ body {
 
 .logo {
   font-size: 70px;
-  color: #228822; }
+  color: #228822;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border: 3px solid #ffd700;
+  border-radius: 50%;
+  padding: 10px; }
 
 .logo-font {
   font-family: "UnifrakturMaguntia", cursive; }
