@@ -4,6 +4,7 @@
   width: 110px;
   height: 110px;
   text-shadow: 1px 1px 1px $secondary;
+  margin-right: 10px;
   @include flexLayout;
 }
 
