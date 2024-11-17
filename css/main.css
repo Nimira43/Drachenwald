@@ -1,9 +1,11 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: "Merriweather", serif;
   color: #333333;
-  background: #fff8dc;
-  margin: 0;
-  padding: 0; }
+  background: #fff8dc; }
 
 .logo {
   color: #8b0000;
