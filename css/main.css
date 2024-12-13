@@ -57,11 +57,11 @@ body {
   border: 1px solid #228822;
   border-radius: 5px;
   outline: none;
+  cursor: pointer;
   transition: all 0.3s ease-in; }
-
-.main-btn:hover {
-  color: #228822;
-  background-color: #ffd700; }
+  .main-btn:hover {
+    color: #228822;
+    background-color: #ffd700; }
 
 .header {
   position: relative;
@@ -78,7 +78,6 @@ body {
     transform: translate(-50%, -50%); }
   .header-banner {
     text-align: center;
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
