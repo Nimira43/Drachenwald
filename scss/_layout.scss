@@ -84,5 +84,27 @@
         font-size: 12px;
       }
     }
+
+    .description {
+      font-size: 25px;
+      color: $secondary;
+      text-align: justify;
+
+      &::first-letter {
+        padding-left: 50px;
+      }
+      
+      @media(max-width: 1600px) {
+        font-size: 18px;
+      }
+
+      @media(max-width: 1000px) {
+        font-size: 14px;
+      }
+
+      @media(max-width: 1500px) {
+        font-size: 12px;
+      }
+    }
   }
 }
