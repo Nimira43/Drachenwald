@@ -146,6 +146,7 @@ body {
     transform: translate(-50%, -50%); }
 
 .about-us {
+  background-color: #000000;
   height: 90vh;
   display: flex;
   align-items: center; }
@@ -183,3 +184,10 @@ body {
       @media (max-width: 1000px) {
         .about-us-right .stars {
           margin-right: 15px 0; } }
+    .about-us-right .fa-star {
+      font-size: 15px;
+      color: #fff8dc;
+      margin-left: 10px; }
+      @media (max-width: 1000px) {
+        .about-us-right .fa-star {
+          font-size: 12px; } }
