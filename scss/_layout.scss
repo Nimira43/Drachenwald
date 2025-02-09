@@ -31,4 +31,22 @@
   @media(max-width: 900px) {
     height: 70vh;
   }
+
+  &-left {
+    width: 40%;
+    position: relative;
+    left: -200px;
+
+    @media(max-width: 1300px) {
+      left: -150px;
+    }
+    @media(max-width: 800px) {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      opacity: 0.7;
+    }
+  }
 }
