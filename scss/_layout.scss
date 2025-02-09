@@ -36,11 +36,12 @@
   &-left {
     width: 40%;
     position: relative;
-    left: -200px;
+    left: 50px;
 
     @media(max-width: 1300px) {
-      left: -150px;
+      left: 25px;
     }
+
     @media(max-width: 800px) {
       display: none;
     }
@@ -56,7 +57,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100%;
+    padding: 0 100px;
     box-sizing: border-box;
 
     @media(max-width: 1300px) {
@@ -90,9 +91,9 @@
       color: $secondary;
       text-align: justify;
 
-      &::first-letter {
-        padding-left: 50px;
-      }
+      // &::first-letter {
+      //   padding-left: 50px;
+      // }
       
       @media(max-width: 1600px) {
         font-size: 18px;

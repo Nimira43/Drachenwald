@@ -155,10 +155,10 @@ body {
   .about-us-left {
     width: 40%;
     position: relative;
-    left: -200px; }
+    left: 50px; }
     @media (max-width: 1300px) {
       .about-us-left {
-        left: -150px; } }
+        left: 25px; } }
     @media (max-width: 800px) {
       .about-us-left {
         display: none; } }
@@ -170,7 +170,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100%;
+    padding: 0 100px;
     box-sizing: border-box; }
     @media (max-width: 1300px) {
       .about-us-right {
@@ -194,8 +194,6 @@ body {
       font-size: 25px;
       color: #ffd700;
       text-align: justify; }
-      .about-us-right .description::first-letter {
-        padding-left: 50px; }
       @media (max-width: 1600px) {
         .about-us-right .description {
           font-size: 18px; } }
