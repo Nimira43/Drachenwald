@@ -97,7 +97,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #ffd700;
+  color: #fff8dc;
   background-color: #228822;
   border: 1px solid #228822;
   border-radius: 5px;
@@ -185,14 +185,14 @@ body {
           margin-right: 15px 0; } }
     .about-us-right .fa-star {
       font-size: 15px;
-      color: #fff8dc;
+      color: #ffd700;
       margin-left: 10px; }
       @media (max-width: 1000px) {
         .about-us-right .fa-star {
           font-size: 12px; } }
     .about-us-right .description {
       font-size: 25px;
-      color: #ffd700;
+      color: #fff8dc;
       text-align: justify; }
       @media (max-width: 1600px) {
         .about-us-right .description {

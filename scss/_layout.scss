@@ -78,7 +78,7 @@
 
     .fa-star {
       font-size: 15px;
-      color: $light;
+      color: $secondary;
       margin-left: 10px;
 
       @media(max-width: 1000px) {
@@ -88,13 +88,9 @@
 
     .description {
       font-size: 25px;
-      color: $secondary;
+      color: $light;
       text-align: justify;
-
-      // &::first-letter {
-      //   padding-left: 50px;
-      // }
-      
+ 
       @media(max-width: 1600px) {
         font-size: 18px;
       }
