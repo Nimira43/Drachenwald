@@ -4,10 +4,10 @@
   align-items: center;
 }
 
-@mixin textStyles {
+@mixin textStyles($transform: uppercase){
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: $transform;
 }
 
 @mixin centering($topvalue) {
@@ -15,6 +15,11 @@
   top: $topvalue;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+%fullSpace {
+  width: 100%;
+  height: 100%;
 }
 
 * {
