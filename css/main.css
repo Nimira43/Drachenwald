@@ -173,12 +173,6 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-@media (max-width: 500px) {
-  .sub-name {
-    font-size: 12px;
-    text-align: center;
-  }
-}
 
 .main-heading {
   font-family: "Loved by the King", cursive;
