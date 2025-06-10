@@ -44,11 +44,6 @@
   color: $primary;
   text-align: center;
   @include textStyles;
-
-  // @media(max-width: 500px) {
-  //   font-size: 12px;
-  //   text-align: center;  
-  // }
 }
 
 .main-heading {
@@ -65,7 +60,6 @@
   @media(max-width: 1000px) {
     font-size: 50px;
   }
-
 }
 
 .sub-heading {
@@ -120,4 +114,29 @@
     font-size: 10px;
   }
 }
+
+.card {
+  width: 33.3333%;
+  height: 30vw;
+  position: relative;
+  overflow: hidden;
+
+  &:hover .card-overlay {
+    left: 0;
+  }
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: rgba($black, 0.6);
+    color: $primary;
+    z-index: 10;
+    @include flexLayout;
+    flex-direction: column;
+    @extend %fullSpace;
+    transition: left 0.7s;
+  }
+}
+
 
