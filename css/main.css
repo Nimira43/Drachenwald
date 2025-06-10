@@ -157,4 +157,12 @@ body {
   }
 }
 
+.main-btn {
+  width: 170px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=main.css.map */
