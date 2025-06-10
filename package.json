@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -o css scss -w"
+  "watch": "sass --watch scss/main.scss css/main.css"
   },
   "author": "Nick Rabone",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
 }
