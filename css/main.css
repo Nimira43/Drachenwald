@@ -295,5 +295,20 @@ body {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+.card-btn {
+  width: 150px;
+  height: 40px;
+  color: #ffd700;
+  background-color: transparent;
+  border: 1px solid #ffd700;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=main.css.map */
