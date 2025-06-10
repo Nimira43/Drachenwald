@@ -144,7 +144,13 @@
     }
   }
 
-  
+  &-paragraph {
+    font-family: $font-main;
+    font-size: 30px;
+    margin-bottom: 30px;
+    @include textStyles(capitalize);
+  }
+
 }
 
 
