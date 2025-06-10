@@ -11,6 +11,12 @@ $font-logo: 'Loved by the King', cursive;
   align-items: center;
 }
 
+@mixin textStyles {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 * {
   margin: 0;
   padding: 0;
