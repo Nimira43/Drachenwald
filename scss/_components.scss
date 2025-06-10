@@ -118,5 +118,17 @@
     background-color: $primary;
     color: $dark;
   }
+
+  @media(max-width: 800px) {
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+  }
+  
+  @media(max-width: 500px) {
+    width: 130px;
+    height: 0px;
+    font-size: 10px;
+  }
 }
 
