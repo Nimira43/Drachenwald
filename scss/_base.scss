@@ -3,6 +3,12 @@ $black: #000;
 $light: #fffcfa;
 $primary: #ffd700;
 
+@mixin flexLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
