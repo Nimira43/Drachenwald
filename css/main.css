@@ -116,6 +116,11 @@ body {
   }
 }
 
+.gallery .cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .logo {
   font-size: 70px;
   color: #ffd700;
