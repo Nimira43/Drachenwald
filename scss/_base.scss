@@ -12,10 +12,10 @@ $font-logo: 'Loved by the King', cursive;
   align-items: center;
 }
 
-@mixin textStyles {
+@mixin textStyles($transform: uppercase) {
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: $transform;
 }
 
 @mixin centering($topValue) {
@@ -23,6 +23,11 @@ $font-logo: 'Loved by the King', cursive;
   top: $topValue;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+%fullSpace {
+  width: 100%;
+  height: 100%;
 }
 
 * {
