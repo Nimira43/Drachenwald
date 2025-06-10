@@ -36,4 +36,11 @@ body {
   align-items: center;
 }
 
+.main-name {
+  font-family: "Loved by the King", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  color: #ffd700;
+}
+
 /*# sourceMappingURL=main.css.map */
