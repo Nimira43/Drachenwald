@@ -1,4 +1,5 @@
-$colour-dark: #111;
+$dark: #111;
+$black: #000;
 
 * {
   margin: 0;
@@ -6,5 +7,5 @@ $colour-dark: #111;
 }
 
 body {
-  background-color: $colour-dark;
+  background-color: $dark;
 }
