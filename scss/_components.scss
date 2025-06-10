@@ -129,7 +129,7 @@
     position: absolute;
     top: 0;
     left: -100%;
-    background-color: rgba($black, 0.6);
+    background-color: rgba($black, 0.7);
     color: $primary;
     z-index: 10;
     @include flexLayout;
@@ -139,7 +139,7 @@
 
     &-heading {
       font-family: $font-logo;
-      font-size: 50%;
+      font-size: 50px;
       @include textStyles(uppercase);
 
       @media(max-width: 900px) {

@@ -271,7 +271,7 @@ body {
   position: absolute;
   top: 0;
   left: -100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   color: #ffd700;
   z-index: 10;
   display: flex;
@@ -282,7 +282,7 @@ body {
 }
 .card-overlay-heading {
   font-family: "Loved by the King", cursive;
-  font-size: 50%;
+  font-size: 50px;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
