@@ -188,6 +188,7 @@
       letter-spacing: 1px;
       outline: none;
       cursor: pointer;
+      transition: all 0.5s;
 
       @media(max-width: 900px) {
         font-size: 12px;
@@ -200,6 +201,11 @@
         width: 100px;
         height: 30px;
       }
+
+      &:hover {
+        background-color: $primary;
+        color: $dark;
+      } 
     }
   }
 
@@ -207,6 +213,9 @@
     @extend %fullSpace;
     object-fit: cover;
     opacity: 0.9;
+
+    
+  
   }
 }
 
