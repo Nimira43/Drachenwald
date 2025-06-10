@@ -136,7 +136,15 @@
     flex-direction: column;
     @extend %fullSpace;
     transition: left 0.7s;
+
+    &-heading {
+      font-family: $font-logo;
+      font-size: 50%;
+      @include textStyles(uppercase);
+    }
   }
+
+  
 }
 
 

@@ -280,5 +280,12 @@ body {
   flex-direction: column;
   transition: left 0.7s;
 }
+.card-overlay-heading {
+  font-family: "Loved by the King", cursive;
+  font-size: 50%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=main.css.map */
