@@ -50,3 +50,17 @@
     text-align: center;  
   }
 }
+
+.main-heading {
+  font-family: $font-logo;
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.sub-heading {
+  font-family: $font-main;
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 80px;
+}

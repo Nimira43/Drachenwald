@@ -23,6 +23,8 @@ body {
   transform: translate(-50%, -50%);
 }
 .header-banner {
+  text-align: center;
+  color: #ffd700;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,6 +93,20 @@ body {
     font-size: 12px;
     text-align: center;
   }
+}
+
+.main-heading {
+  font-family: "Loved by the King", cursive;
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.sub-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 80px;
 }
 
 /*# sourceMappingURL=main.css.map */
