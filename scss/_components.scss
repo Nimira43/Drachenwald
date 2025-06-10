@@ -142,31 +142,31 @@
       font-size: 50%;
       @include textStyles(uppercase);
     }
-  }
+  
+    &-paragraph {
+      font-family: $font-main;
+      font-size: 30px;
+      margin-bottom: 30px;
+      @include textStyles(capitalize);
+    }
 
-  &-paragraph {
-    font-family: $font-main;
-    font-size: 30px;
-    margin-bottom: 30px;
-    @include textStyles(capitalize);
+    &-btn {
+      width: 150px;
+      height: 40px;
+      color: $primary;
+      background-color: transparent;
+      border: 1px solid $primary;
+      border-radius: 3px;
+      font-family: $font-main;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      outline: none;
+      cursor: pointer;
+    }
   }
-
-  &-btn {
-    width: 150px;
-    height: 40px;
-    color: $primary;
-    background-color: transparent;
-    border: 1px solid $primary;
-    border-radius: 3px;
-    font-family: $font-main;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    outline: none;
-    cursor: pointer;
-  }
-
+  
   &-img {
     @extend %fullSpace;
     object-fit: cover;
