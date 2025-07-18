@@ -143,6 +143,18 @@ body {
   align-items: center;
   margin-bottom: 70px;
 }
+.footer .social-media {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+@media (max-width: 500px) {
+  .footer .social-media {
+    width: 200px;
+    margin-bottom: 40px;
+  }
+}
 
 .logo {
   font-size: 70px;

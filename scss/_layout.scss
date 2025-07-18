@@ -121,4 +121,16 @@
     align-items: center;
     margin-bottom: 70px;
   }
+
+  .social-media {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    @media(max-width: 500px) {
+      width: 200px;
+      margin-bottom: 40px;
+    }
+  }
 }
