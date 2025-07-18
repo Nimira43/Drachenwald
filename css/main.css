@@ -161,11 +161,11 @@ body {
 .footer .social-media-link {
   text-decoration: none;
   font-size: 50px;
-  color: var(--primary);
+  color: #ffd700;
   transition: color 0.5s ease-in;
 }
 .footer .social-media-link:hover {
-  color: var(--light);
+  color: #fffcfa;
 }
 @media (max-width: 1000px) {
   .footer .social-media-link {
@@ -175,6 +175,26 @@ body {
 @media (max-width: 500px) {
   .footer .social-media-link {
     font-size: 25px;
+  }
+}
+.footer-copyright-paragraph {
+  font-family: "Loved by the King", cursive;
+  font-size: 18px;
+  color: #fffcfa;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+@media (max-width: 800px) {
+  .footer-copyright-paragraph {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .footer-copyright-paragraph {
+    font-size: 14px;
   }
 }
 
