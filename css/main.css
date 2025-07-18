@@ -167,6 +167,16 @@ body {
 .footer .social-media-link:hover {
   color: var(--light);
 }
+@media (max-width: 1000px) {
+  .footer .social-media-link {
+    font-size: 35px;
+  }
+}
+@media (max-width: 500px) {
+  .footer .social-media-link {
+    font-size: 25px;
+  }
+}
 
 .logo {
   font-size: 70px;
