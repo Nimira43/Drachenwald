@@ -106,3 +106,14 @@
     flex-wrap: wrap;
   }
 }
+
+.footer {
+  padding: 70px 0;
+  @include flexLayout;
+  flex-direction: column;
+
+  @media(max-width: 500px) {
+    padding: 40px 0;
+  }
+  
+}
